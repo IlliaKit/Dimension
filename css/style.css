@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after{
+	-moz-box-sizing:  border-box;
+	-webkit-box-sizing:  border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active{outline:  none;}
+
+a:focus,a:active{outline:  none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust:  100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited{text-decoration: none ;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 4001; }
+/*--------------*/
+
+
+
+body{
+	padding: 30px;
+	font-size: 20px;
+	background: url('../img/mountains_1.jpg')  0 0/cover no-repeat ;
+	font-family: Arial;
+}
+
+.main{
+
+width: 800px;
+height: 400px;
+margin: auto;
+margin-top: 18% ;
+position: relative;
+}
+
+.circle {
+  background-color: rgba(28,28,28,0);
+  border: 0.1em solid white;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  position: absolute;
+  left: 43.5%;
+  top: -25%;
+}
+
+.clas_1{
+border-right: 1px solid white;
+width: 50%;
+height: 50px;
+}
+
+.clas_2{
+	line-height: 30px;
+	font-size: 15px;
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.demi{
+	letter-spacing: 5px;
+	font-size: 30px;
+	padding-bottom: 30px;
+	font-weight: 800;
+}
+
+
+.clas_3{
+	border-right: 1px solid white;
+width: 50%;
+height: 50px;
+	
+}
+.clas_4{
+	height: 50px;
+	
+	position: relative;
+}
+
+.button{
+	height: 50px;
+	width: 100px;
+	border: 1px solid white;
+	background-color: rgba(28,28,28,0);
+	color: white;
+	letter-spacing: 2px;
+}
+
+.button:hover{
+background-color: rgba(255, 255, 255,0.3);
+}
+
+.button1{
+position: absolute;
+left: 200px;
+}
+
+.button2{
+	position: absolute;
+	left: 300px;
+}
+
+.button3{
+	position: absolute;
+	right: 300px;
+}
+
+.button4{
+	right: 200px;
+	position: absolute;
+}
+
